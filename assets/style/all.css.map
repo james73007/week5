@@ -1,0 +1,1 @@
+{"version":3,"sources":["_base.scss","_layout.scss"],"names":[],"mappings":"AAAA;EACI,qBAAqB;EACrB,cAAc,EAAA;;ACFlB;EACI,aAAa,EAAA","file":"all.css","sourcesContent":["a{\r\n    text-decoration: none;\r\n    color:#212529 ;\r\n}",".nav{\r\n    height: 100vh;\r\n\r\n}"]}
