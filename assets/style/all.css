@@ -2,7 +2,23 @@ a {
   text-decoration: none;
   color: #212529; }
 
+.container {
+  margin: 0 auto; }
+
 .nav {
-  height: 100vh; }
+  min-height: 100vh;
+  min-width: 296px;
+  position: fixed; }
+
+.www {
+  margin-left: 32px; }
+
+.user-img {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 24px;
+  height: 40px; }
 
 /*# sourceMappingURL=all.css.map */
