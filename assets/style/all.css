@@ -1,18 +1,14 @@
 a {
-  text-decoration: none;
-  color: #212529; }
+  text-decoration: none; }
 
-.container {
-  margin: 0 auto; }
+.content {
+  margin-left: 296px; }
 
 .nav {
   min-height: 100vh;
   min-width: 296px;
   position: fixed;
   border: 1px solid #000; }
-
-.www {
-  margin-left: 296px; }
 
 .user-img {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true);
@@ -24,7 +20,7 @@ a {
   width: 40px; }
 
 .nav-list li {
-  border: 1px solid red; }
+  margin-bottom: 22px; }
   .nav-list li:hover::before {
     position: absolute;
     content: "";
@@ -36,6 +32,8 @@ a {
 .nav-list a {
   position: relative;
   display: block;
-  padding: 12px 32px; }
+  color: #212529; }
+  .nav-list a:hover {
+    color: #198754; }
 
 /*# sourceMappingURL=all.css.map */
