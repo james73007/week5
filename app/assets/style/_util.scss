@@ -1,0 +1,31 @@
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+  1: $spacer * .25, //4px
+  2: $spacer * .5,  // 8px
+  3: $spacer,       //16px
+  4: $spacer * 1.5, //24px 
+  5: $spacer * 2,  //32px
+  6: $spacer * 3,   //48px
+);
+.me-2{
+    margin-right: $spacer * .5 !important ;
+}
+.me-6{
+    margin-right: $spacer * 3 !important ;
+}
+.me-4{
+    margin-right: $spacer * 1.5 !important ;
+}
+.ps-5{
+    padding-left: $spacer * 2 !important ;
+}
+.pt-5{
+    padding-top: $spacer * 2 !important ;
+}
+.pb-5{
+    padding-bottom: $spacer * 2 !important ;
+}
+.mb-1{
+    margin-bottom: $spacer * .25 !important ;
+}

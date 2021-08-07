@@ -1,4 +1,41 @@
+.content{
+    margin-left: 296px;
+}
+.title a{
+    display: block;
+}
 .nav{
-    height: 100vh;
-
+    min-height: 100vh;
+    min-width: 296px;
+    position: fixed;
+}
+.user-img{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 24px;
+    height: 40px;
+    width: 40px;
+}
+.nav-list{
+    li{
+        margin-bottom: 22px;
+        &:hover::before{
+            position: absolute;
+            content: "";
+            left: 0;
+            width: 4px;
+            height: 32px;
+            border: 4px solid #198754;
+        } 
+    }
+    a{  
+        position: relative;
+        display: block;
+        color: #212529;
+        &:hover{
+            color:#198754 ;
+        }
+    }
 }
