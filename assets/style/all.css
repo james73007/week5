@@ -1,14 +1,43 @@
 a {
   text-decoration: none; }
 
+p {
+  margin-bottom: 0; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0; }
+
+.me-2 {
+  margin-right: 0.5rem !important; }
+
+.me-6 {
+  margin-right: 3rem !important; }
+
+.me-4 {
+  margin-right: 1.5rem !important; }
+
+.ps-5 {
+  padding-left: 2rem !important; }
+
+.pt-5 {
+  padding-top: 2rem !important; }
+
+.pb-5 {
+  padding-bottom: 2rem !important; }
+
+.mb-1 {
+  margin-bottom: 0.25rem !important; }
+
 .content {
   margin-left: 296px; }
+
+.title a {
+  display: block; }
 
 .nav {
   min-height: 100vh;
   min-width: 296px;
-  position: fixed;
-  border: 1px solid #000; }
+  position: fixed; }
 
 .user-img {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true);
